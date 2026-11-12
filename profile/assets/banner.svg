@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">ArcvelleOS</title>
+  <desc id="desc">Dark emerald banner with the ArcvelleOS mark and the words Android, considered.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061b1a"/>
+      <stop offset="0.58" stop-color="#0b3830"/>
+      <stop offset="1" stop-color="#041c1a"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#63f2b8" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#63f2b8" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#63f2b8" stop-opacity=".03"/>
+    </linearGradient>
+    <pattern id="grain" width="44" height="44" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#a8ffe1" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="480" rx="34" fill="url(#bg)"/>
+  <rect width="1600" height="480" rx="34" fill="url(#grain)"/>
+  <circle cx="1438" cy="238" r="365" fill="none" stroke="url(#arc)" stroke-width="2"/>
+  <circle cx="1438" cy="238" r="290" fill="none" stroke="url(#arc)" stroke-width="2"/>
+  <circle cx="1438" cy="238" r="215" fill="none" stroke="url(#arc)" stroke-width="2"/>
+  <path d="M1018 430c188-189 356-244 582-246" fill="none" stroke="#59eeb5" stroke-opacity=".2" stroke-width="2"/>
+  <g transform="translate(114 102) scale(.55)">
+    <rect x="8" y="8" width="496" height="496" rx="112" fill="#05231f" stroke="#8bffd1" stroke-opacity=".18" stroke-width="3"/>
+    <path d="M107 381 230 123c10-21 42-21 52 0l123 258h-70l-79-174-79 174z" fill="#e9fff4"/>
+    <path d="M179 322c43-24 101-25 153-2" fill="none" stroke="#52edb1" stroke-width="29" stroke-linecap="round"/>
+    <path d="M76 338c88 5 173-12 252-47 50-22 87-48 110-75" fill="none" stroke="#52edb1" stroke-width="19" stroke-linecap="round"/>
+    <path d="M407 131c5 18 10 23 28 28-18 5-23 10-28 28-5-18-10-23-28-28 18-5 23-10 28-28z" fill="#f3fff0"/>
+  </g>
+  <text x="454" y="238" fill="#effff5" font-family="DejaVu Sans, Arial, sans-serif" font-size="83" font-weight="700" letter-spacing="-4">Arcvelle<tspan fill="#75f4bd">OS</tspan></text>
+  <text x="459" y="309" fill="#b9e8d0" font-family="DejaVu Sans, Arial, sans-serif" font-size="29" letter-spacing="5">ANDROID, CONSIDERED.</text>
+  <path d="M459 348h575" stroke="#8df5c5" stroke-opacity=".38" stroke-width="2"/>
+</svg>

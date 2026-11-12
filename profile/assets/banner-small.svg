@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">ArcvelleOS compact banner</title>
+  <desc id="desc">ArcvelleOS logo and wordmark on a dark emerald field.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061b1a"/>
+      <stop offset="0.6" stop-color="#0c3a31"/>
+      <stop offset="1" stop-color="#041c1a"/>
+    </linearGradient>
+    <pattern id="dots" width="38" height="38" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#a8ffe1" opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#dots)"/>
+  <circle cx="1070" cy="150" r="178" fill="none" stroke="#72f2ba" stroke-opacity=".12" stroke-width="2"/>
+  <circle cx="1070" cy="150" r="127" fill="none" stroke="#72f2ba" stroke-opacity=".1" stroke-width="2"/>
+  <path d="M755 280c128-119 267-166 445-166" fill="none" stroke="#72f2ba" stroke-opacity=".18" stroke-width="2"/>
+  <g transform="translate(47 48) scale(.4)">
+    <rect x="8" y="8" width="496" height="496" rx="112" fill="#05231f" stroke="#8bffd1" stroke-opacity=".18" stroke-width="3"/>
+    <path d="M107 381 230 123c10-21 42-21 52 0l123 258h-70l-79-174-79 174z" fill="#e9fff4"/>
+    <path d="M179 322c43-24 101-25 153-2" fill="none" stroke="#52edb1" stroke-width="29" stroke-linecap="round"/>
+    <path d="M76 338c88 5 173-12 252-47 50-22 87-48 110-75" fill="none" stroke="#52edb1" stroke-width="19" stroke-linecap="round"/>
+    <path d="M407 131c5 18 10 23 28 28-18 5-23 10-28 28-5-18-10-23-28-28 18-5 23-10 28-28z" fill="#f3fff0"/>
+  </g>
+  <text x="294" y="141" fill="#effff5" font-family="DejaVu Sans, Arial, sans-serif" font-size="65" font-weight="700" letter-spacing="-3">Arcvelle<tspan fill="#75f4bd">OS</tspan></text>
+  <text x="298" y="197" fill="#b9e8d0" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" letter-spacing="4">ANDROID, CONSIDERED.</text>
+  <path d="M298 224h447" stroke="#8df5c5" stroke-opacity=".4" stroke-width="2"/>
+</svg>
